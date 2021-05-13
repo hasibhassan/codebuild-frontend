@@ -45,7 +45,7 @@ export default function Home() {
           {todo.map((item, i) => (
             <div className="flex mb-4 items-center">
               <p key={i} className="w-full text-grey-darkest">
-                {item[i]}
+                {item}
               </p>
               <button className="flex-no-shrink p-2 ml-4 mr-2 border-2 rounded hover:text-white text-green border-green hover:bg-green">
                 Done
