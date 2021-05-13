@@ -8,6 +8,7 @@ export default function Home() {
       .then((res) => res.json())
       .then((res) => setTodo(res))
   }, [])
+  console.log(todo)
   return (
     /*
   This example requires Tailwind CSS v2.0+ 
