@@ -6,7 +6,7 @@ export default function Home() {
   useEffect(() => {
     fetch('https://novd7wtdnh.execute-api.us-east-1.amazonaws.com/')
       .then((res) => res.json())
-      .then((res) => setTodo([todo, ...res]))
+      .then((res) => setTodo(res))
   }, [])
   return (
     /*
